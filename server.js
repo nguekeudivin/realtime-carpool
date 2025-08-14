@@ -52,6 +52,7 @@ wss.on("connection", async (ws, req) => {
       DELETE_MESSAGE: "MESSAGE_DELETED",
       IAM_ONLINE: "USER_ONLINE",
       NOTIFY_MY_POSITION: "USER_POSITION",
+      NEW_NOTIFICATION: "NEW_NOTIFICATION",
     };
 
     console.log(data.payload);
